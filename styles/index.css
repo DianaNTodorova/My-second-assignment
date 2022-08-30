@@ -1,0 +1,67 @@
+body {
+  width: 65%;
+  text-align: justify;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #696969;
+  background-image: url(../images/flower_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li {
+  display: inline;
+  text-align: justify;
+}
+ul {
+  padding: 20px 0px 20px 0px;
+  text-align: justify;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #424242;
+}
+h1 {
+  color: white;
+  background-color: #04588d;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+}
+.box_button {
+  padding: 10px 5px 10px 5px;
+}
+footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.box_button {
+  margin-top: 10px;
+}
+button {
+  padding: 10px 30px 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #04588d;
+  color: white;
+  box-shadow: 3px 3px 5px #afafaf;
+}
+f5 {
+  font-weight: bold;
+}
+.image_midsummer {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img {
+  border-radius: 20px;
+}

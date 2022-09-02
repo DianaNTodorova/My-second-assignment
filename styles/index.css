@@ -1,6 +1,6 @@
 body {
   width: 65%;
-  text-align: justify;
+  text-align: left;
   margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #696969;
@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: block;
 }
 
 h1 {
@@ -20,6 +21,11 @@ h1 {
   padding-top: 30px;
   padding-bottom: 30px;
   margin: 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid: 20px;
 }
 ul {
   padding: 20px 0px 20px 0px;
@@ -35,20 +41,31 @@ a {
   text-decoration: none;
   color: #424242;
 }
-.box_button {
-  padding: 10px 5px 10px 5px;
+.box_first,
+.box_second,
+.box_third,
+.box_fourth {
+  width: 200px;
 }
+img {
+  border-radius: 20px;
+}
+.image_midsummer {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 footer {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
-.box_button {
-  margin-top: 10px;
+h5 {
+  font-weight: bold;
 }
-img {
-  border-radius: 20px;
-}
+
 button {
   padding: 10px 30px 10px 30px;
   border: none;
@@ -58,12 +75,7 @@ button {
   color: white;
   box-shadow: 3px 3px 5px #afafaf;
 }
-h5 {
-  font-weight: bold;
-}
-.image_midsummer {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.box_button {
+  padding: 10px 5px 10px 5px;
+  margin-top: 10px;
 }
